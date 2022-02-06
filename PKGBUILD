@@ -15,6 +15,7 @@ md5sums=('SKIP')
 package() {
   cd "$pkgname"
   install -dm 755 "${pkgdir}"/usr/share/fonts/TTF
+  install -dm 755 "${pkgdir}"/usr/share/fonts/OTF
   install -Dm644 *.ttf "$pkgdir"/usr/share/fonts/TTF
-  install -Dm644 *.otf "$pkgdir"/usr/share/fonts/TTF
+  install -Dm644 *.otf "$pkgdir"/usr/share/fonts/OTF
 }
