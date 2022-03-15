@@ -8,7 +8,7 @@ arch=(any)
 depends=(fontconfig xorg-font-util)
 provides=("fonts-phyOS")
 conflicts=("consolas-font")
-source=("git://github.com/PhyTech-R0/fonts-phyOS")
+source=("git+https://github.com/PhyTech-R0/fonts-phyOS")
 md5sums=('SKIP')
 
 
